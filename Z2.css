@@ -1,0 +1,133 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /*opacity: 1;*/
+  font-family: Arial;
+}
+body{
+  background-color: #aaaaff;
+  background-image: url('/background.jpg');
+  background-size: cover;
+}
+.game_name{
+  height:100px;
+  width:240px;
+  margin-top: 1rem;
+  padding: 0.4rem;
+  border:#fff solid 0.1rem;
+  border-radius: 0.5rem;
+  background-color: #123456;
+  color:#ffffff;
+ /* background-color: #cccfff;
+  color:#000000;*/
+  background-image: url('/heading1.jpg');
+  background-size: cover;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight:500;
+}
+.three{
+  margin-top: 2vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+.choices{
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+  border-radius: 50%;
+  border: #000000 solid 0.5rem;
+  background-color: #123456;
+  background-size: cover;
+}
+.choices:hover{
+  border: #ffffff solid 0.5rem;
+}
+#rock{
+  background-image: url('/rock.jpg');
+  background-size: cover;
+}
+#paper{
+  background-image: url('/paper.jpg');
+  background-size: cover;
+}
+#scissor{
+  background-image: url('/scissor.jpg');
+  background-size: cover;
+}
+.you-ai{
+  margin-top: 3rem;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: #00000000;
+  /*border: #ffffff solid 0.2rem ;*/
+}
+#vs{
+  background-image: url('/vs1-1.png');
+  height: 160px;
+  width: 100px;
+  background-size: cover;
+  /*background-color: white;*/
+}
+.you_and_ai{
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+  border-radius: 50%;
+  border: #000000 solid 0.5rem;
+  background-color: #123456;
+  background-size: cover;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.w-l-d{
+  display:flex;
+  margin-top:2rem;
+  font-size:2rem;
+  align-items: center;
+  justify-content: center;
+}
+#msg{
+  border-radius: 10px;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #000000;
+  color:#ffffff;
+}
+#ai1{
+  font-size:1rem ;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+}
+.score{
+  margin-top:2rem;
+  font-size: 1.75rem;
+  display:flex;
+  justify-content: center;
+  color:#ffffff;
+  font-weight: 600;
+}
+.name{
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #123456;
+  color:white;
+  font-weight: 600;
+  border: #ffffffaa solid 1px;
+}
+.border{
+  border: #ffffff solid 2px;
+  border-radius: 50%;
+}
