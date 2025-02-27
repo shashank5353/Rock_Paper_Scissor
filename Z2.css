@@ -6,7 +6,7 @@
 }
 body{
   background-color: #aaaaff;
-  background-image: url('/background.jpg');
+  background-image: url('background.jpg');
   background-size: cover;
 }
 .game_name{
@@ -20,7 +20,7 @@ body{
   color:#ffffff;
  /* background-color: #cccfff;
   color:#000000;*/
-  background-image: url('/heading1.jpg');
+  background-image: url('heading1.jpg');
   background-size: cover;
   display: inline-block;
   font-size: 2rem;
@@ -46,15 +46,15 @@ body{
   border: #ffffff solid 0.5rem;
 }
 #rock{
-  background-image: url('/rock.jpg');
+  background-image: url('rock.jpg');
   background-size: cover;
 }
 #paper{
-  background-image: url('/paper.jpg');
+  background-image: url('paper.jpg');
   background-size: cover;
 }
 #scissor{
-  background-image: url('/scissor.jpg');
+  background-image: url('scissor.jpg');
   background-size: cover;
 }
 .you-ai{
@@ -66,7 +66,7 @@ body{
   /*border: #ffffff solid 0.2rem ;*/
 }
 #vs{
-  background-image: url('/vs1-1.png');
+  background-image: url('vs1-1.png');
   height: 160px;
   width: 100px;
   background-size: cover;
